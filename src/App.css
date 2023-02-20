@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+p{
+  font-size: 15px;
+}
+.container-fluid  {
+  display: flex;
+  width: 100%;
+}
+.main{
+  width: 100%;
+  padding: 20px;
+  overflow: scroll;
+}
+.sidebar{
+  background-image: linear-gradient(rgb(8, 17, 24), rgb(41, 57, 70));
+  color: white;
+  height: 100vh;
+  width: 260px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  /* background-color: lightgrey; */
+}
+.bars{
+  display: flex;
+  font-size: 22px;
+  cursor: pointer;
+  /* margin-left: 50px; */
+  transition: all 0.5s;
+}
+.link{
+  display: flex;
+  padding: 10px 15px;
+  color: white;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.link:hover{
+  background-color: rgb(41, 57, 70);
+  color: white;
+  transition: all 0.5s;
+}
+.active{
+  background-color: rgb(41, 57, 70);
+  color: white;
+}
+.link_text{
+font-size: 15px;
+text-decoration: none !important;
+}
+.icon{
+  font-size: 18px;
+text-decoration: none;
+color: white !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  --bs-gutter-x: 0rem !important;
+}
+.dropdown-menu{
+  background: none !important;
+  border: none !important;
+  width: 80% !important;
+  height: 200px !important;
+}
+.dropdown-toggle::after{
+display: none !important;
+}
+.dropdown{
+  padding:2px 0px 4px 45px !important;
+}
+.crud{
+  background-image: linear-gradient(to bottom right, rgb(8, 17, 24), rgb(74, 99, 120));
+  padding: 0px 10px 0px 10px;
+  text-align: right !important;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
