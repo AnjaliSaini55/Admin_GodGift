@@ -59,10 +59,10 @@ function Login(){
 
           <Button variant="secondary" type='submit'>Login</Button>
         </form>
-         {/* <p>
+         {<p>
           Don't have and account? 
           <Link to='/register'>Create one here</Link>
-        </p> */}
+        </p>}
       </div>
     </div>
     </>
